@@ -33,3 +33,14 @@ body {
 .hoverbox:hover .enlarge {
   font-size: 120%;
 }
+
+a {
+  text-decoration: none;
+  color: #dedede;
+a:visited {
+  color: #7f7f7f;
+}
+
+a:hover {
+  color: #bfbfbf;
+}
