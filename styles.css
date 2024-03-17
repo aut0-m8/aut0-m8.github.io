@@ -17,11 +17,13 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-direction: column;
 }
 
 .hoverbox {
   display: inline;
   width: calc(100% - 5px);
+  margin-bottom: 20px
 }
 
 .enlarge {
