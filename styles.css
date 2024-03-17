@@ -23,7 +23,6 @@ body {
 .hoverbox {
   display: inline;
   width: calc(100% - 5px);
-  margin-bottom: 20px
 }
 
 .enlarge {
