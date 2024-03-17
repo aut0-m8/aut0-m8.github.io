@@ -18,3 +18,17 @@ body {
   align-items: center;
   text-align: center;
 }
+
+.hoverbox {
+  display: inline;
+  width: calc(100% - 5px);
+}
+
+.enlarge {
+  font-size: 100%;
+  transition: font-size 1s cubic-bezier(0,.75,0,1);
+}
+
+.hoverbox:hover .enlarge {
+  font-size: 120%;
+}
